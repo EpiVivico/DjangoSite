@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'projects',
     'portfolio',
 ]
 
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'sitelebardo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["sitelebardo/templates/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
